@@ -24,7 +24,10 @@ export async function buildFirstTx(utxos: UTxO[], address: string) {
         }
         
     } catch (e: any) {
-        console.log(e)
+      
+        return {
+            error: e.message
+        }
     
     }
    
