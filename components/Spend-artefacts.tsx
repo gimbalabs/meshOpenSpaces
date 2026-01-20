@@ -5,6 +5,8 @@ import type { PlutusScript, Data } from "@meshsdk/core";
 import { resolvePlutusScriptAddress } from "@meshsdk/core";
 import { useState, useEffect } from "react";
 import { useArtefact } from "../hooks/useArtefact";
+import { UTxO } from "@meshsdk/core";
+import { get } from "http";
 
 export default function SpendArtefacts() {
     const [Cbor, setCbor] = useState<string | null>(null);

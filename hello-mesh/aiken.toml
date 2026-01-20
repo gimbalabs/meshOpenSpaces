@@ -1,13 +1,13 @@
-name = "gzero/test-validator"
+name = "meshlivecoding/hello-mesh"
 version = "0.0.0"
 compiler = "v1.1.19"
 plutus = "v3"
 license = "Apache-2.0"
-description = "Aiken contracts for project 'gzero/test-validator'"
+description = "Aiken contracts for project 'meshlivecoding/hello-mesh'"
 
 [repository]
-user = "gzero"
-project = "test-validator"
+user = "meshlivecoding"
+project = "hello-mesh"
 platform = "github"
 
 [[dependencies]]
