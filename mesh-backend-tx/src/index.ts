@@ -2,7 +2,7 @@
 // import cbor from "cbor"
 // import { blockchain_provider, wallet } from "./lib";
 
-import { build_ticket_tx } from "./builder-fest";
+//import { build_ticket_tx } from "../../server/builder-fest";
 
 // const scriptCbor = "58a001010029800aba2aba1aab9faab9eaab9dab9a48888896600264653001300700198039804000cc01c0092225980099b8748008c01cdd500144c8cc896600266e1d2000300a375400d1323259800980800144cdc79bae300f300d37540109110d48656c6c6f2c20576f726c6421008b201c375c601c00260166ea801a2c8048c02c004c02cc030004c020dd50014590060c01c004c00cdd5003c52689b2b20021"
 // //const encoded_script = cbor.encode(Buffer.from(scriptCbor, "hex")).toString("hex")
@@ -57,4 +57,4 @@ import { build_ticket_tx } from "./builder-fest";
 
 // await spend()
 
-await build_ticket_tx();
+//await build_ticket_tx();

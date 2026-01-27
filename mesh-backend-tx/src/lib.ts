@@ -1,5 +1,5 @@
-import { BlockfrostProvider, MeshWallet } from "@meshsdk/core"
-import "dotenv/config"
+/*import { BlockfrostProvider, MeshWallet } from "@meshsdk/core"
+
 
 export const seed_phrase = process.env.SEED_PHRASE?.split(" ")
 if(!seed_phrase){
@@ -20,3 +20,4 @@ export const wallet = new MeshWallet({
       words: seed_phrase
     }
 })
+*/
