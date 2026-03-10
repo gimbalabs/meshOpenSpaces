@@ -4,7 +4,7 @@
   "main": "index.ts",
   "type": "module",
   "scripts": {
-    "start": "tsx src/index.ts",
+    "start": "tsx src/hydra/testing.ts",
     "dev": "tsx src/index.ts",
     "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,6 +15,8 @@
   "description": "",
   "dependencies": {
     "@meshsdk/core": "^1.9.0-beta.87",
+    "@meshsdk/core-csl": "^1.9.0-beta.101",
+    "@meshsdk/hydra": "^1.9.0-beta.99",
     "cbor": "^10.0.11",
     "dotenv": "^17.2.3"
   },
