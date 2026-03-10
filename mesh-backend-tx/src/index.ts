@@ -55,6 +55,6 @@ import { build_ticket_tx } from "./builder-fest";
 // return txHash;
 // }
 
-// await spend()
+await build_ticket_tx()
 
-await build_ticket_tx();
+//await quickTx()
