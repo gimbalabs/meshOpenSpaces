@@ -5,6 +5,7 @@ import { BuilderFestTicketButton } from "@/components/BuilderFestTicketButton";
 import {DeployRefScriptButton} from "@/components/DeployRefScriptButton";
 import { RegisterDrepButton } from "@/components/RegisterDrep";
 import { FirstTimeDelegationButton } from "@/components/FirstTimeDelegationButton";
+import { UnsignedTxForm } from "@/components/UnsignedTxForm";
 
 
 export default function Home() {
@@ -17,7 +18,8 @@ export default function Home() {
         {/* <UnlockNoRefScript /> */}
       {/* <DeployRefScriptButton /> */}
         {/* <RegisterDrepButton /> */}
-        <FirstTimeDelegationButton />
+        {/* <FirstTimeDelegationButton /> */}
+        <UnsignedTxForm />
       </main>
     </div>
   );
